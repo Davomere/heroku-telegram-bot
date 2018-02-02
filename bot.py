@@ -2,6 +2,7 @@
 import redis
 import os
 import telebot
+import apiai, json
 # import some_api_lib
 # import ...
 
@@ -21,7 +22,7 @@ r = redis.from_url(os.environ.get("REDIS_URL"))
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
-import apiai, json
+
 updater = Updater(token='439378420:AAEe6ebLHPbsOLwnNAv_eSCravY-iIJ5FSA')
 dispatcher = updater.dispatcher
 
