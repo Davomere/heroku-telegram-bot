@@ -6,7 +6,7 @@ from telebot.types import LabeledPrice, ShippingOption
 # Example of your code beginning
 #           Config vars
 token = '1112245860:AAGI715lYUgJs62wb3TUWmGdiWIYAHdclI4'
-provider_token = '410694247:TEST:190fcd86-b35e-4309-89af-79b2ebff5b15'  # @BotFather -> Bot Settings -> Payments
+provider_token = '410694247:TEST:d670960a-e974-4be0-a021-ec46910ab3b3'  # @BotFather -> Bot Settings -> Payments
 #             ...
 
 # If you use redis, install this add-on https://elements.heroku.com/addons/heroku-redis
