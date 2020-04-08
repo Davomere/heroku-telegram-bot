@@ -6,10 +6,6 @@ from telebot.types import LabeledPrice, ShippingOption
 # Example of your code beginning
 #           Config vars
 token = os.environ['TELEGRAM_TOKEN']
-#             ...
-
-# If you use redis, install this add-on https://elements.heroku.com/addons/heroku-redis
-r = redis.from_url(os.environ.get("REDIS_URL"))
 
 
 provider_token = '410694247:TEST:190fcd86-b35e-4309-89af-79b2ebff5b15'  # @BotFather -> Bot Settings -> Payments
