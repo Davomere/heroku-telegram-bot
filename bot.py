@@ -11,6 +11,7 @@ provider_token = '410694247:TEST:d670960a-e974-4be0-a021-ec46910ab3b3'  # @BotFa
 
 # If you use redis, install this add-on https://elements.heroku.com/addons/heroku-redis
 
+
 bot = telebot.TeleBot(token)
 
 # More about Payments: https://core.telegram.org/bots/payments
