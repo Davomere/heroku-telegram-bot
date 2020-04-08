@@ -6,9 +6,7 @@ from telebot.types import LabeledPrice, ShippingOption
 # Example of your code beginning
 #           Config vars
 token = os.environ['TELEGRAM_TOKEN']
-
-
-provider_token = '410694247:TEST:190fcd86-b35e-4309-89af-79b2ebff5b15'  # @BotFather -> Bot Settings -> Payments
+provider_token = os.environ['PRROVIDER_TOKEN']  # @BotFather -> Bot Settings -> Payments
 bot = telebot.TeleBot(token)
 
 # More about Payments: https://core.telegram.org/bots/payments
