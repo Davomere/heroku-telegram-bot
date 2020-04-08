@@ -1,5 +1,4 @@
 import telebot
-from telebot import types
 from telebot.types import LabeledPrice, ShippingOption
 # import some_api_lib
 # import ...
